@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "AZ3166",
+      "maintainer": "Microsoft Developer",
+      "websiteURL": "https://microsoft.github.io/azure-iot-developer-kit/",
+      "email": "aziotdevkit@microsoft.com",
+      "help": {
+        "online": "https://microsoft.github.io/azure-iot-developer-kit/"
+      },
+      "platforms": [
+{
+          "name":  "MXChip - Microsoft Azure IoT Developer Kit",
+          "architecture":  "stm32f4",
+          "version":  "2.0.0-a",
+          "category":  "Contributed",
+          "help":  {
+                       "online":  "https://github.com/Microsoft/azure-iot-developer-kit"
+                   },
+          "url":  "https://kfessel.github.io/mxchip-iot-devkit/AZ3166-2.0.0-a.zip",
+          "archiveFileName":  "AZ3166-2.0.0-a.zip",
+          "checksum":  "MD5:ac273497ccf710feb920960ea3c0faff",
+          "size":  "5469895",
+          "boards":  [
+                         {
+                             "name":  "MXChip - Microsoft Azure IoT Developer Kit AZ3166"
+                         }
+                     ],
+          "toolsDependencies":  [
+                                    {
+                                        "packager":  "arduino",
+                                        "name":     "arm-none-eabi-gcc",
+                                        "version":  "7-2017q4"
+                                    },
+                                    {
+                                        "packager":  "arduino",
+                                        "name":  "openocd",
+                                        "version":  "0.11.0-arduino2"
+                                    }
+                                ]
+      }
+      ]
+    }
+  ]
+}
